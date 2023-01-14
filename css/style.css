@@ -1,0 +1,163 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* *{
+    outline: 1px dotted red;
+} */
+
+.container .nav-link{
+    color: #a82d49;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+/* .container img{
+    height: 90%;
+} */
+
+.container .btn{
+    color: white;
+    background-color: #a82d49;
+    border: #a82d49 solid 2px;
+    box-sizing: border-box;
+}
+.container .btn:hover{
+    color: #a82d49;
+    background-color: white;
+}
+.container .banner{
+    height: 80vh;
+    /* background-image: url(../img/3.jpg); */
+    padding-left: 30px;
+}
+
+.container .img1{
+    background-image: url(../img/3.jpg);
+    background-size:cover ;
+}
+/* .row .num1{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    
+} */
+
+.story{
+    background: url(../img/111.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.row .card-body{
+    color: black;
+    padding-top: 20px;
+}
+.row .card-body span{
+    color: #a82d49;
+    font-weight: bold;
+}
+
+.carousel{
+    text-align: center;
+}
+.carousel img{
+    width: 10%;
+    height: 10%;
+}
+.passion{
+    background: url(../img/download.jpg) center no-repeat ;
+    background-size: cover;
+    height: 130px;
+}
+.row .input{
+    border: 3px solid #e5e5e5;
+    background: transparent;
+    width: 80%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.row .input:focus {
+    border: 3px solid #555;
+    transition: 0.5s;
+    outline: none;
+
+}
+.container .nav-link1{
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.Testimonials .carousel-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.banner1{
+    background: url(../img/3.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.banner1 h2{
+    font-size: 4.4rem;
+}
+@media screen and (max-width: 600px) {
+    .banner1 h2{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .banner1 h2{
+        font-size: 2rem;
+    }
+}
+.story h2{
+    font-size: 2.25rem;
+    line-height: 45px;
+}
+
+@media screen and (max-width: 400px) {
+    .story h2{
+        font-size: 1.6rem;
+        line-height: 35px;
+    }
+
+    }
+@media screen and (max-width: 500px) {
+    .Testimonials .carousel-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .Testimonials .carousel-item p{
+        display: none;
+    }
+    .Testimonials .carousel-item h3{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Testimonials{
+        padding-bottom: 40px;
+    }
+
+    }
+.container .Hurry h2{
+    font-size: 2.25rem; 
+    line-height: 45px;
+}
+@media screen and (max-width: 400px) {
+    .Hurry h2{
+        width: auto;
+        font-size: .5rem; 
+        line-height: 35px;
+    }
+    .Hurry p{
+        display: none;
+    }
+    }
